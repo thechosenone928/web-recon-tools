@@ -27,7 +27,7 @@ docker compose build
 Run the container and expose the SSH port (22):
 
 ```bash
-docker compose up -d
+docker-compose up
 ```
 
 ---
