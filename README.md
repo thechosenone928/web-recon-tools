@@ -37,7 +37,7 @@ docker-compose up
 The container is configured with SSH root login enabled.
 
 * **User**: `root`
-* **Password**: `recon`
+* **Password**: `root`
 
 Connect via SSH:
 
