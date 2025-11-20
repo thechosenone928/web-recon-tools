@@ -1,0 +1,12 @@
+services:
+  pentest-tools:
+    container_name: pentest-tools
+    image: anhnmt/pentest-tools:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./wordlists:/root/wordlists
+    ports:
+      - '9999:9999'
+      - '22222:22'
