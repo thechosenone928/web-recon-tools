@@ -71,7 +71,7 @@ COPY --from=builder /go/bin /usr/local/bin
 # SSH setup
 RUN mkdir -p /var/run/sshd && \
     echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config && \
-    echo "root:recon" | chpasswd \
+    echo "root:root" | chpasswd \
     && rm -rf /tmp/* /var/tmp/* /root/.cache
 
 CMD ["/usr/sbin/sshd", "-D"]
