@@ -1,4 +1,4 @@
-# pentest-tools
+# web-recon-tools
 
 This Docker image comes preloaded with reconnaissance & penetration testing tools:
 
