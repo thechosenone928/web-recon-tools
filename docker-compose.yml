@@ -1,7 +1,7 @@
 services:
-  pentest-tools:
-    container_name: pentest-tools
-    image: tco/pentest-tools:latest
+  web-recon-tools:
+    container_name: web-recon-tools
+    image: tco/web-recon-tools:latest
     build:
       context: .
       dockerfile: Dockerfile
