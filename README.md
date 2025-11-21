@@ -17,16 +17,6 @@ This Docker image comes preloaded with reconnaissance & penetration testing tool
 ## 🚀 Build Image
 
 ```bash
-docker compose build
-```
-
----
-
-## ▶️ Run Container
-
-Run the container and expose the SSH port (22):
-
-```bash
 docker-compose up
 ```
 
